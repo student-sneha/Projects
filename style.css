@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;;
+}
+.container{
+   width:100%;
+   height:100vh;
+   background-color:black;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:darkgrey;
+    padding: 13px ;
+}
+.logo{
+    font-size: 1.7rem;
+    text-decoration: solid;
+    font-style: italic;
+    font-weight: 700;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    outline: none;
+    border: none;
+}
+.nav-links ul li {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    padding-left:10px ;
+    font-weight: 500;
+    transition: 0.2s all ease-in;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.info{
+    display: flex;
+    justify-content: flex-end;
+}
+.text{
+    color: white;
+    position: absolute;
+    left:200px;
+    right:700px;
+    top: 180px;
+}
+h1{
+    font-weight: 600;
+    font-style:calc(349deg);
+    font-family: "Barlow";
+    font-size: 4.00rem;
+    font-weight: normal;
+    letter-spacing: 0.00rem;
+    line-height: 1.55;
+    text-transform: none;
+}
+h2{
+    font-size:2rem ;
+    word-spacing: 4px;
+    font-weight: normal;
+    letter-spacing: 0.00rem;
+    line-height: 1.55;
+    text-transform: none;
+    font-family: "Inter";
+}
+img{
+    height:450px;
+    width:450px;
+    border-radius: 50%;
+    background-size: cover;
+    position: relative;
+    right:200px;
+    top:70px ;
+    outline: none;
+    border: none;
+}
